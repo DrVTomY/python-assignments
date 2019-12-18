@@ -11,6 +11,7 @@ def sumdigits(number):
     return (number%10) + sumdigits(number//10)
 
 def main():
+    print("This program is to add digits of number in recursion way")
     number=int(input("Enter a number :"))
     print(sumdigits(number))
 

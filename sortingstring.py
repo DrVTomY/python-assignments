@@ -12,6 +12,7 @@ def listToString(words):
 
 
 def main():
+    print("This program is to perform Sorting of a string ")
     sentence = str(input("Enter The Sentence You need to sort >> "))
     print("String is >> " + sentence)
     words = sentence.split()

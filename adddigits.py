@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+print("This program is to find sum of digits of number")
 n=int(input("Enter a number:"))
 tot=0
 while(n>0):
