@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Rules>
+    <rule Sr_no= "Retired_emp">
+        <context>Person</context>
+        <condition>self.age>=60</condition>
+        <action>Retired</action>
+    </rule>
+    <rule Sr_no= "temp_emp">
+        <context>Person</context>
+        <condition>self.tenure>=20</condition>
+        <action>permanent</action>
+    </rule>
+
+
+</Rules>

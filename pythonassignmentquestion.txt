@@ -1,0 +1,156 @@
+1) Write a Python program to get the sum of its digit.
+
+Ex. For a number 123, output is 6
+
+2) Write a Python program to calculate the sum of a list of numbers.
+
+Ex. For a (), output is 6
+
+
+3) Write a Python program using recursion for requirement #1.
+
+4)
+
+
+5) Write a program that accepts a sentence as input and prints the words in a sorted sequence
+
+	Suppose the following input is supplied to the program:
+
+		without hello bag world
+
+	Then, the output should be:
+
+		bag hello without world
+
+
+6) Write a program that accepts a sentence as input and prints the sentence after removing all duplicate words
+
+	Suppose the following input is supplied to the program:
+
+		hello world and practice makes perfect and hello world again
+
+	Then, the output should be:
+
+		practice makes perfect again
+
+7) Write a program that compares 2 files and tells if they are same or different. The solution needs to be optimised so that it can even work with huge files.
+
+8) Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
+
+	Suppose a = 3 then
+
+	3 + 3*3 + 3*3*3 = 42
+
+9) Write a program that computes the net amount of a bank account based a transaction log from a file. The transaction log format is shown as following :
+
+D 300
+D 300
+W 200
+D 100
+
+Note - D means deposit while W means withdrawal.
+
+Then, the output should be:
+500
+
+10) Write a program that validates password as per below rules and outputs if the password is valid or not -
+
+1. At least 1 letter between [a-z]
+2. At least 1 number between [0-9]
+1. At least 1 letter between [A-Z]
+3. At least 1 character from [$#@]
+4. Minimum length of transaction password: 6
+5. Maximum length of transaction password: 12
+
+11) Write a program to compute steps required to return to original position after a sequence of movement  -
+
+A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps.
+
+For example, for below input
+
+UP 5	moved up 5
+DOWN 3	moved down 3
+LEFT 3	moved left 3
+RIGHT 2	moved right 2
+LEFT 1	moved left 1
+Down 5	moved down 5
+
+Then, the output of the program should be:
+
+5
+
+12) Write a program to generate all combinations where
+	subject is  ["I", "You"]
+	verb is ["Play", "Love"] and
+	object is ["Hockey","Football, "Cricket"].
+
+	It should print total 12 Sentences
+
+	I Play Hockey
+	I Play Football
+	I Play Cricket
+	I Love Hockey
+	I Love Football
+	I Play Cricket
+	You Play Hockey
+	You Play Football
+	You Play Cricket
+	You Love Hockey
+	You Love Football
+	You Play Cricket
+
+
+13) Write an Excel reader class that reads Excel file and returns all / specified data in the given worksheet.
+
+	The class should have following functions "can use xlrd"
+
+	OpenExcelFile( Filename )				- Returns pointer / handle to opened file
+	GetWorksheetData ( Worksheet Name )		- Gets all data on specified worksheet for previously opened excel file
+	GetWorksheetRange ( Worksheet Name, Row1, Col1, Row2, Col2 ) 	- Gets range of cells
+
+14) Implement a Http / Websocket server using which 2 different python scripts can communicate with each other.
+
+
+15) Define a class employee with properties name and code. When we print the object of the class as below,
+
+	e1 = EMployee("XXX", 12345)
+	print (e1)
+
+	It should give output as
+
+	Name = XXX
+	Code = 12345
+
+16) Write a python script that compares 2 XML files and list the difference between them.
+
+17) Write a python script that compares 2 JSON files and list the difference between them.
+
+18) Write a python script that takes UTF 16 encoded file and converts it to UTF 8.
+
+19) Write a python rule processor that processes a XML file containing rules such as example below -
+
+	Context	= Person
+	Condition = Age > 60
+	Action = Retired = True
+
+	When a python script calls the Run function for a Rule class by passing a Person object as parameter, it will set the Retired property to True if the condition evaluates to True i.e. Age of person is > 60 in this case.
+
+20) Write a python program that merges the text file with data elements and generates merged output.
+
+	For example, given below text file -
+
+	Dear {{Name}},
+
+	We are pleased to confirm your booking dated {{Date}} at {{Property}}.
+
+	And another file with data such as
+
+	Name, Date, Property
+
+	X, 1-jan-2020, Goa
+	Y, 5-jan-2020, Delhi
+
+	It should generate 2 different blocks by substituting data values in the filed defined within {{}}.
+
+
+

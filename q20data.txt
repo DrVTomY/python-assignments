@@ -1,0 +1,4 @@
+Name, Date, Property	
+X, 1-Feb-2020, London
+Y, 5-Feb-2020, Tokyo
+Z, 9-Feb-2020, Paris

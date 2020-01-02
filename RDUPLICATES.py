@@ -22,7 +22,7 @@ def main():
     dstring = input("Enter the sentence to remove duplicates :")
     duplicate = dstring.split()
     dstring = removeDuplicates(duplicate)
-    print("The Sorted String is >> " + dstring)
+    print("After Removing Duplicates String is >> " + dstring)
 main()
 
     
